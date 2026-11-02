@@ -1,0 +1,14 @@
+{
+  "name": "aura",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scroll-driven 3D product page for the AURA One wireless headphones, built with Three.js.",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "start": "npx serve ."
+  },
+  "devDependencies": {
+    "csso": "5.0.5",
+    "terser": "5.31.6"
+  }
+}
