@@ -2,7 +2,15 @@
 
 A scroll-driven 3D landing page for **AURA One**, a concept pair of wireless noise-cancelling headphones. The headphones are modelled, lit and animated entirely in the browser with [Three.js](https://threejs.org/), with no 3D model files.
 
-![AURA One cover](screenshots/aura-1.png)
+<p align="center">
+  <a href="https://subir-uipl.github.io/aura/"><img alt="View live demo" src="https://img.shields.io/badge/Live%20demo-subir--uipl.github.io%2Faura-d8b27a?style=for-the-badge&labelColor=0a0b0e"></a>
+</p>
+
+<p align="center">
+  <strong><a href="https://subir-uipl.github.io/aura/">▶ Open the live site</a></strong> · scroll through it, then drag the headphones in the last section
+</p>
+
+[![AURA One cover](screenshots/aura-1.png)](https://subir-uipl.github.io/aura/)
 
 ## Features
 
@@ -45,7 +53,7 @@ This writes `css/style.min.css` and `js/main.min.js`.
 ## Project structure
 
 ```
-Aura/
+aura/
 ├── index.html          Page markup
 ├── favicon.svg
 ├── css/
@@ -62,7 +70,9 @@ Aura/
 
 ## Deploy
 
-It's a static site, so any static host works. For **GitHub Pages**: push the repo, go to **Settings → Pages**, choose your branch and the root folder, and save.
+The site is live on GitHub Pages at **<https://subir-uipl.github.io/aura/>**.
+
+It's a static site, so any static host works. To publish your own copy on **GitHub Pages**: push the repo, go to **Settings → Pages**, choose your branch and the root folder, and save.
 
 ## Credits
 
